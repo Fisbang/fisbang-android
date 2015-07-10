@@ -1,1 +1,1 @@
-include ':app', ':fisbang'
+include ':fisbang'
