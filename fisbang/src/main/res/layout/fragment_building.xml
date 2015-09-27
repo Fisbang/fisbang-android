@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/main_color"
+        android:padding="16dp"
+        android:text="@string/txt_building_name"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:gravity="right|top"
+                android:paddingRight="8dp"
+                android:text="Date here..."
+                android:textColor="@color/label"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:text="@string/title_energy_consumption"
+            android:textColor="@color/label"
+            android:textSize="18sp" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/piechart_saving"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:checkedButton="@+id/radio_energy"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_energy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Energy (kWh)" />
+
+            <RadioButton
+                android:id="@+id/radio_bill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bill (Rp)" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>
