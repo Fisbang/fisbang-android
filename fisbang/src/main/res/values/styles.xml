@@ -1,8 +1,20 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/main_color</item>
+        <item name="colorPrimaryDark">@color/main_light_color</item>
+        <item name="colorAccent">@color/control_bg_blue</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="actionBarWidgetTheme">@style/MyApp.ActionBarTheme</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyApp.ActionBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- THIS is where you can color the arrow! -->
+        <item name="colorControlNormal">@android:color/white</item>
     </style>
 
 </resources>

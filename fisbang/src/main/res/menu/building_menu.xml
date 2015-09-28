@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_add_new_building"
+        android:title="@string/add_new_building" />
+    <item
+        android:id="@+id/action_add_new_control"
+        android:title="@string/add_new_control" />
+</menu>
