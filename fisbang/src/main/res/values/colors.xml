@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="main_color">#408733</color>
-    <color name="main_light_color">#41AC40</color>
-    <color name="main_accent">#8BC34A</color>
-    <color name="page_bg_color">#F5F5F5</color>
+    <color name="main_color">#438733</color>
+    <color name="main_dark_color">#214819</color>
+    <color name="main_light_color">#42AC40</color>
+    <color name="main_accent">#57BBE2</color>
+    <color name="page_bg_color">#F9F9F9</color>
 
-    <color name="fb_blue">#243C65</color>
+    <color name="fb_blue">#273C65</color>
     <color name="google_red">#DF0A14</color>
     <color name="control_bg_blue">#1E92B9</color>
     <color name="label">#282828</color>
+    <color name="light_gray">#E0E0DF</color>
+
+    <color name="chart_1">#A3D1E7</color>
+    <color name="chart_2">#BEDBEA</color>
+    <color name="chart_3">#0087AF</color>
+    <color name="chart_4">#57BBE2</color>
+    <color name="chart_5">#273C65</color>
 
 </resources>

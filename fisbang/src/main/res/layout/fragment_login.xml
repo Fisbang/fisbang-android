@@ -11,7 +11,7 @@
         android:layout_gravity="center"
         android:background="@drawable/circle_background"
         android:scaleType="centerInside"
-        android:src="@drawable/img_logo" />
+        android:src="@drawable/ic_big_logo" />
 
     <TextView
         android:id="@+id/textView"
@@ -62,8 +62,8 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="8dp"
         android:text="Forgot Password?"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@color/main_color" />
+        android:textColor="@color/main_color"
+        android:textSize="11sp" />
 
     <Button
         android:id="@+id/btnLogin"
@@ -71,7 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
-        android:background="@color/main_color"
+        android:background="@drawable/btn_background_bottom_strip_green"
         android:text="LOGIN"
         android:textColor="@android:color/white"
         android:textStyle="bold" />

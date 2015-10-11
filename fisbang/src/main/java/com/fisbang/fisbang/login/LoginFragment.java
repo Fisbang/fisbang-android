@@ -43,7 +43,7 @@ public class LoginFragment extends Fragment {
         getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.layout_container, frag).commitAllowingStateLoss();
     }
 
-    @OnClick(R.id.btnLogin)
+    @OnClick({R.id.btnLogin, R.id.btnLoginFacebook, R.id.btnGooglePlus})
     public void login() {
         Fragment frag = new HomeFragment();
         getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.layout_container, frag).commitAllowingStateLoss();

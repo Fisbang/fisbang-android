@@ -79,6 +79,7 @@
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/txt_kwh_unit"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="left|bottom"
@@ -106,15 +107,22 @@
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:background="@color/page_bg_color" />
 
-    <android.support.v7.widget.SwitchCompat
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:padding="16dp"
-        android:text="@string/title_control"
-        android:textColor="@color/fb_blue" />
+    <!--<android.support.v7.widget.SwitchCompat-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="16dp"-->
+    <!--android:text="@string/title_control"-->
+    <!--android:textColor="@color/fb_blue" />-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="@color/light_gray"
+        android:padding="8dp" />
 
 </LinearLayout>
