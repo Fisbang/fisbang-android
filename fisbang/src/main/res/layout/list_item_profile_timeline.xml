@@ -7,8 +7,9 @@
 
     <ImageView
         android:id="@+id/img_ic_timeline"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:padding="4dp"
         android:scaleType="fitXY"
         android:src="@drawable/ic_electricity" />
 

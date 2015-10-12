@@ -11,7 +11,7 @@
         android:layout_gravity="center"
         android:background="@drawable/circle_background"
         android:scaleType="centerInside"
-        android:src="@drawable/img_logo" />
+        android:src="@drawable/ic_big_logo" />
 
     <TextView
         android:id="@+id/textView"

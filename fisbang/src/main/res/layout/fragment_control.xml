@@ -34,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:background="@color/control_bg_blue"
+        android:background="@drawable/btn_background_bottom_strip_blue"
         android:padding="16dp"
         android:text="@string/add_new_control"
         android:textAllCaps="false"
