@@ -43,7 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="@color/light_gray"
+        android:background="@color/lighter_gray"
         android:gravity="bottom"
         android:padding="8dp">
 
@@ -70,7 +70,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:text="@string/title_energy"
-                android:textColor="@color/main_accent"
+                android:textColor="@color/control_label_active"
                 android:textSize="11sp" />
         </LinearLayout>
 
@@ -94,7 +94,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:text="@string/title_control"
-                android:textColor="@color/label"
+                android:textColor="@color/light_gray"
                 android:textSize="11sp" />
         </LinearLayout>
 
@@ -120,7 +120,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:text="@string/title_savings"
-                android:textColor="@color/label"
+                android:textColor="@color/light_gray"
                 android:textSize="11sp" />
         </LinearLayout>
     </RelativeLayout>

@@ -12,7 +12,7 @@
         android:padding="16dp"
         android:text="@string/txt_building_name"
         android:textColor="@android:color/white"
-        android:textSize="18sp" />
+        android:textSize="16sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -68,12 +68,16 @@
                 android:id="@+id/radio_energy"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/control_bg_blue"
+                android:buttonTintMode="src_in"
                 android:text="Energy (kWh)" />
 
             <RadioButton
                 android:id="@+id/radio_bill"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/control_bg_blue"
+                android:buttonTintMode="src_in"
                 android:text="Bill (Rp)" />
         </RadioGroup>
     </LinearLayout>

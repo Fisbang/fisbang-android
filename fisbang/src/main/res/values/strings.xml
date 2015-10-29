@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Fisbang</string>
-    <string name="title_building">Building</string>
-    <string name="title_store">Store+</string>
-    <string name="title_settings">Settings</string>
+    <string name="title_building">BUILDING</string>
+    <string name="title_store">STORE+</string>
+    <string name="title_settings">SETTINGS</string>
     <string name="title_control">Control</string>
     <string name="title_energy">Energy</string>
     <string name="title_savings">Savings</string>
@@ -13,6 +13,6 @@
     <string name="add_new_control">Add new control</string>
     <string name="find_out_how">Find Out How!</string>
 
-    <string name="txt_building_name">Building Name</string>
+    <string name="txt_building_name">BUILDING NAME</string>
     <string name="txt_control_your">Control Your Home</string>
 </resources>

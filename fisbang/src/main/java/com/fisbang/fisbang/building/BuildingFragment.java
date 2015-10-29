@@ -49,7 +49,7 @@ public class BuildingFragment extends Fragment {
         mDaysSpinner.getBackground().setColorFilter(getResources().getColor(android.R.color.darker_gray), PorterDuff.Mode.SRC_ATOP);
 
         mChart.setUsePercentValues(true);
-        mChart.setDescription("Test");
+        mChart.setDescription("");
 
         mChart.setDragDecelerationFrictionCoef(0.95f);
         mChart.setDrawHoleEnabled(true);

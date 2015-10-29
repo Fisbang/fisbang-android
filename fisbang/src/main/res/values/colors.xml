@@ -11,11 +11,14 @@
     <color name="control_bg_blue">#1E92B9</color>
     <color name="label">#282828</color>
     <color name="light_gray">#E0E0DF</color>
+    <color name="lighter_gray">#BBBBBB</color>
 
     <color name="chart_1">#A3D1E7</color>
     <color name="chart_2">#BEDBEA</color>
     <color name="chart_3">#0087AF</color>
     <color name="chart_4">#57BBE2</color>
     <color name="chart_5">#273C65</color>
+
+    <color name="control_label_active">#0087AF</color>
 
 </resources>

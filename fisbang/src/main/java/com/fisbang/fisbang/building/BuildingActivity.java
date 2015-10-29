@@ -81,9 +81,9 @@ public class BuildingActivity extends AppCompatActivity {
         mBtnControl.setImageResource(R.drawable.ic_big_control_inactive);
         mBtnSaving.setImageResource(R.drawable.ic_big_saving_inactive);
 
-        mTxtEnergy.setTextColor(getResources().getColor(R.color.main_accent));
-        mTxtControl.setTextColor(getResources().getColor(R.color.label));
-        mTxtSaving.setTextColor(getResources().getColor(R.color.label));
+        mTxtEnergy.setTextColor(getResources().getColor(R.color.control_label_active));
+        mTxtControl.setTextColor(getResources().getColor(R.color.light_gray));
+        mTxtSaving.setTextColor(getResources().getColor(R.color.light_gray));
     }
 
     @OnClick(R.id.layout_btn_control)
@@ -95,9 +95,9 @@ public class BuildingActivity extends AppCompatActivity {
         mBtnControl.setImageResource(R.drawable.ic_big_control_active);
         mBtnSaving.setImageResource(R.drawable.ic_big_saving_inactive);
 
-        mTxtEnergy.setTextColor(getResources().getColor(R.color.label));
-        mTxtControl.setTextColor(getResources().getColor(R.color.main_accent));
-        mTxtSaving.setTextColor(getResources().getColor(R.color.label));
+        mTxtEnergy.setTextColor(getResources().getColor(R.color.light_gray));
+        mTxtControl.setTextColor(getResources().getColor(R.color.control_label_active));
+        mTxtSaving.setTextColor(getResources().getColor(R.color.light_gray));
     }
 
     @OnClick(R.id.layout_btn_saving)
@@ -109,8 +109,8 @@ public class BuildingActivity extends AppCompatActivity {
         mBtnControl.setImageResource(R.drawable.ic_big_control_inactive);
         mBtnSaving.setImageResource(R.drawable.ic_big_saving_active);
 
-        mTxtEnergy.setTextColor(getResources().getColor(R.color.label));
-        mTxtControl.setTextColor(getResources().getColor(R.color.label));
-        mTxtSaving.setTextColor(getResources().getColor(R.color.main_accent));
+        mTxtEnergy.setTextColor(getResources().getColor(R.color.light_gray));
+        mTxtControl.setTextColor(getResources().getColor(R.color.light_gray));
+        mTxtSaving.setTextColor(getResources().getColor(R.color.control_label_active));
     }
 }
